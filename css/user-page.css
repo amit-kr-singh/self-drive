@@ -1,0 +1,135 @@
+body html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: darkgrey; }
+
+.user-page .hamburger-icon {
+  height: 30px;
+  position: absolute;
+  z-index: 5;
+  margin: 10px; }
+
+.user-page .bg-dark {
+  background-color: #33414F !important; }
+
+.user-page .navbar {
+  padding: 0px; }
+
+.user-page a {
+  color: #f8f9fb;
+  text-decoration: none;
+  background-color: transparent; }
+
+.user-page .btn-primary {
+  background-color: #006AA4;
+  margin-top: 20px; }
+
+.user-page .text-primary {
+  color: #006AA4 !important; }
+
+.user-page .user-box {
+  background-color: white;
+  height: 345px;
+  padding: 20px; }
+
+.user-page form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1; }
+
+.user-page form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer; }
+
+.user-page form.example button:hover {
+  background: #0b7dda; }
+
+.user-page form.example::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.user-page .calendar {
+  height: 32px;
+  position: absolute;
+  top: 3px;
+  right: 17px; }
+
+.user-page .up-arrow {
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  right: 22px; }
+
+.user-page .down-arrow {
+  height: 20px;
+  position: absolute;
+  top: 17px;
+  right: 22px; }
+
+.user-page .watch {
+  height: 30px;
+  float: right; }
+
+.user-page .developer {
+  display: inline-block; }
+
+.user-page .all-condition {
+  display: inline-block;
+  float: right; }
+
+.user-page .terms {
+  display: inline-block; }
+
+.user-page .line {
+  display: inline-block; }
+
+.user-page .privacy {
+  display: inline-block; }
+
+.user-page .sticky-footer {
+  flex-shrink: none; }
+
+.user-page .user-id .nav {
+  left: 50%;
+  margin-left: -150px;
+  top: 50px;
+  position: absolute; }
+
+.user-page .user-id .nav > li > a:hover, .user-page .user-id .nav > li > a:focus, .user-page .user-id .nav .open > a, .user-page .user-id .nav .open > a:hover, .user-page .user-id .nav .open > a:focus {
+  background: #fff; }
+
+.user-page .user-id .dropdown-menu > li > a {
+  color: #428bca; }
+
+.user-page .user-id .dropdown ul.dropdown-menu:before {
+  content: "";
+  border-bottom: 10px solid #fff;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: -10px;
+  right: 16px;
+  z-index: 10; }
+
+.user-page .user-id .dropdown ul.dropdown-menu:after {
+  content: "";
+  border-bottom: 12px solid #ccc;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  position: absolute;
+  top: -12px;
+  right: 14px;
+  z-index: 9; }

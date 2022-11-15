@@ -1,0 +1,75 @@
+body html {
+  margin: 0;
+  padding: 0; }
+
+.home .backgroundimg {
+  background-image: url("../images/BMW.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  margin: 0; }
+
+.home .hamburger-icon {
+  height: 30px;
+  position: absolute;
+  z-index: 5;
+  margin: 10px; }
+
+.home .bg-dark {
+  background-color: #33414F !important; }
+
+.home .navbar {
+  padding: 0px; }
+
+.home a {
+  color: #f8f9fb;
+  text-decoration: none;
+  background-color: transparent; }
+
+.home .message {
+  color: white;
+  margin: 70px 20px 20px;
+  font-size: 15px; }
+
+.home .sign-in-box {
+  background-color: white;
+  height: 350px;
+  padding: 20px;
+  line-height: 64px; }
+  .home .sign-in-box .form-control {
+    min-height: 38px;
+    border-radius: 2px;
+    margin-top: 20px;
+    border: none;
+    background-color: #E8E8E8; }
+  .home .sign-in-box .forgot-password {
+    color: black; }
+  .home .sign-in-box .sign-up {
+    color: black;
+    display: inline-block;
+    margin-right: 10px; }
+  .home .sign-in-box .btn-primary {
+    background-color: #006AA4; }
+  .home .sign-in-box .text-primary {
+    color: #006AA4 !important; }
+
+.home .sticky-footer {
+  flex-shrink: none; }
+
+.home .developer {
+  display: inline-block; }
+
+.home .all-condition {
+  display: inline-block;
+  float: right; }
+
+.home .terms {
+  display: inline-block; }
+
+.home .line {
+  display: inline-block; }
+
+.home .privacy {
+  display: inline-block; }

@@ -1,0 +1,88 @@
+body html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: darkgrey; }
+
+.profile .hamburger-icon {
+  height: 30px;
+  position: absolute;
+  z-index: 5;
+  margin: 10px; }
+
+.profile .bg-dark {
+  background-color: #33414F !important; }
+
+.profile .navbar {
+  padding: 0px; }
+
+.profile a {
+  color: #f8f9fb;
+  text-decoration: none;
+  background-color: transparent; }
+
+.profile .btn-primary {
+  background-color: #006AA4;
+  margin-top: 20px;
+  margin-left: 128px; }
+
+.profile .text-primary {
+  color: #006AA4 !important; }
+
+.profile .user-profile {
+  height: 485px;
+  background-color: white; }
+  .profile .user-profile .user-side-menu .sidenav {
+    height: 485px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #006AA4 !important;
+    overflow-x: hidden;
+    padding-top: 20px; }
+    .profile .user-profile .user-side-menu .sidenav .user-image {
+      height: 50px; }
+    .profile .user-profile .user-side-menu .sidenav .user-details {
+      line-height: 5px;
+      font-size: 12px;
+      color: white;
+      top: 8px; }
+  .profile .user-profile .user-side-menu .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    line-height: 0; }
+  .profile .user-profile .user-side-menu .sidenav a:hover {
+    color: #f1f1f1; }
+  .profile .user-profile .info-details {
+    font-size: 10px;
+    line-height: 12px; }
+  .profile .user-profile .finish-custom {
+    margin-left: 95px; }
+
+.profile .head {
+  height: 45px;
+  background-color: #006AA4; }
+
+.profile .developer {
+  display: inline-block; }
+
+.profile .all-condition {
+  display: inline-block;
+  float: right; }
+
+.profile .terms {
+  display: inline-block; }
+
+.profile .line {
+  display: inline-block; }
+
+.profile .privacy {
+  display: inline-block; }
+
+.profile .sticky-footer {
+  flex-shrink: none; }

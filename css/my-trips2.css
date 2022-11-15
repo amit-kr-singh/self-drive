@@ -1,0 +1,109 @@
+body html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: darkgrey; }
+
+.my-trips2 .hamburger-icon {
+  height: 30px;
+  position: absolute;
+  z-index: 5;
+  margin: 10px; }
+
+.my-trips2 .bg-dark {
+  background-color: #33414F !important; }
+
+.my-trips2 .navbar {
+  padding: 0px; }
+
+.my-trips2 a {
+  color: #f8f9fb;
+  text-decoration: none;
+  background-color: transparent; }
+
+.my-trips2 .btn-primary {
+  background-color: #006AA4;
+  margin-top: 20px;
+  margin-left: 128px; }
+
+.my-trips2 .text-primary {
+  color: #006AA4 !important; }
+
+.my-trips2 .user-profile {
+  height: 485px;
+  background-color: white; }
+  .my-trips2 .user-profile .user-side-menu .sidenav {
+    height: 485px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #006AA4 !important;
+    overflow-x: hidden;
+    padding-top: 20px; }
+    .my-trips2 .user-profile .user-side-menu .sidenav .user-image {
+      height: 50px; }
+    .my-trips2 .user-profile .user-side-menu .sidenav .user-details {
+      line-height: 5px;
+      font-size: 12px;
+      color: white;
+      top: 8px; }
+  .my-trips2 .user-profile .user-side-menu .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    line-height: 0; }
+  .my-trips2 .user-profile .user-side-menu .sidenav a:hover {
+    color: #f1f1f1; }
+
+.my-trips2 .my-trips-list {
+  height: 73px;
+  background-color: white;
+  box-shadow: 0px 1px 30px 5px #e8ecec; }
+  .my-trips2 .my-trips-list .vehicle {
+    height: 55px; }
+  .my-trips2 .my-trips-list .car-details {
+    line-height: 1px;
+    font-size: 10px;
+    border-right: 1px solid lightgray; }
+  .my-trips2 .my-trips-list .date-time {
+    line-height: 0px;
+    font-size: 10px; }
+  .my-trips2 .my-trips-list .date-time2 {
+    line-height: 0px;
+    font-size: 10px;
+    border-right: 1px solid lightgray; }
+  .my-trips2 .my-trips-list .location {
+    font-size: 12px; }
+    .my-trips2 .my-trips-list .location .place {
+      line-height: 1;
+      font-size: 10px; }
+  .my-trips2 .my-trips-list .complete-msg {
+    margin-top: 29px;
+    height: 27px; }
+
+.my-trips2 .head {
+  height: 45px;
+  background-color: #006AA4; }
+
+.my-trips2 .developer {
+  display: inline-block; }
+
+.my-trips2 .all-condition {
+  display: inline-block;
+  float: right; }
+
+.my-trips2 .terms {
+  display: inline-block; }
+
+.my-trips2 .line {
+  display: inline-block; }
+
+.my-trips2 .privacy {
+  display: inline-block; }
+
+.my-trips2 .sticky-footer {
+  flex-shrink: none; }

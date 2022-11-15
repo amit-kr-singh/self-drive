@@ -1,0 +1,77 @@
+body html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: darkgrey; }
+
+.otp-page .hamburger-icon {
+  height: 30px;
+  position: absolute;
+  z-index: 5;
+  margin: 10px; }
+
+.otp-page .bg-dark {
+  background-color: #33414F !important; }
+
+.otp-page .navbar {
+  padding: 0px; }
+
+.otp-page a {
+  color: #f8f9fb;
+  text-decoration: none;
+  background-color: transparent; }
+
+.otp-page .mobile-otp {
+  background-color: white;
+  height: 332px;
+  padding: 20px;
+  line-height: 64px; }
+  .otp-page .mobile-otp .form-control {
+    min-height: 38px;
+    border-radius: 2px;
+    margin-top: 20px;
+    border: none;
+    background-color: #E8E8E8; }
+
+.otp-page .mobile-icon {
+  height: 60px; }
+
+.otp-page .change-phone {
+  float: left;
+  margin-top: 42px;
+  font-size: 13px;
+  margin-bottom: 20px; }
+
+.otp-page .time-calculate {
+  display: inline-block;
+  float: right; }
+
+.otp-page .btn-primary {
+  background-color: #006AA4;
+  margin-top: 20px; }
+
+.otp-page .text-primary {
+  color: #006AA4 !important; }
+
+.otp-page .developer {
+  display: inline-block; }
+
+.otp-page .all-condition {
+  display: inline-block;
+  float: right; }
+
+.otp-page .terms {
+  display: inline-block; }
+
+.otp-page .line {
+  display: inline-block; }
+
+.otp-page .privacy {
+  display: inline-block; }
+
+.otp-page .otp-box {
+  height: 85vh; }
+
+.otp-page .sticky-footer {
+  flex-shrink: none; }

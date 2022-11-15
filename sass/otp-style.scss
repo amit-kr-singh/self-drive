@@ -1,0 +1,85 @@
+
+body html {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: darkgrey;
+}
+.otp-page{
+.hamburger-icon{
+      height: 30px;
+      position: absolute;
+      z-index: 5;
+      margin: 10px;
+    }
+	.bg-dark{
+		background-color: #33414F! important;
+	}
+	.navbar{
+		padding: 0px;
+	}
+	a {
+    color: #f8f9fb;
+    text-decoration: none;
+    background-color: transparent;
+    }
+	.mobile-otp{
+		background-color: white;
+		height: 332px;
+    	padding: 20px;
+    	line-height: 64px;
+		.form-control{
+        min-height: 38px;
+        border-radius: 2px;
+        margin-top: 20px;
+        border: none;
+        background-color: #E8E8E8;
+	}
+	}
+	.mobile-icon{
+		height: 60px;
+	}
+	.change-phone{
+		float: left;
+    	margin-top: 42px;
+   		font-size: 13px;
+    	margin-bottom: 20px;
+	}
+	.time-calculate{
+		display: inline-block;
+    	float: right;
+
+	}
+	.btn-primary{
+		background-color: #006AA4;
+		margin-top: 20px;
+	}
+	.text-primary{
+		color: #006AA4! important;
+	}
+	.developer{
+		display: inline-block;
+	}
+	.all-condition{
+		display: inline-block;
+    	float: right;
+	}
+	.terms{
+		display: inline-block;
+	}
+	.line{
+		display: inline-block;
+	}
+	.privacy{
+		display: inline-block;
+	}
+	.otp-box{
+		    height: 85vh;
+}
+.sticky-footer {
+  		flex-shrink: none;
+}
+
+}
+	

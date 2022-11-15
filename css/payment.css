@@ -1,0 +1,91 @@
+body html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: darkgrey; }
+
+.payment-page .hamburger-icon {
+  height: 30px;
+  position: absolute;
+  z-index: 5;
+  margin: 10px; }
+
+.payment-page .bg-dark {
+  background-color: #33414F !important; }
+
+.payment-page .navbar {
+  padding: 0px; }
+
+.payment-page a {
+  color: #f8f9fb;
+  text-decoration: none;
+  background-color: transparent; }
+
+.payment-page .btn-primary {
+  background-color: #006AA4;
+  margin-top: 20px; }
+
+.payment-page .text-primary {
+  color: #006AA4 !important; }
+
+.payment-page .vehicle-details {
+  height: 419px;
+  background-color: white; }
+  .payment-page .vehicle-details .vehicle {
+    height: 167px;
+    border: 2px solid darkgrey; }
+  .payment-page .vehicle-details .pickup {
+    line-height: 0;
+    margin-right: -5px;
+    font-size: 13px; }
+  .payment-page .vehicle-details .date-time {
+    line-height: 2;
+    font-size: 12px; }
+    .payment-page .vehicle-details .date-time .time {
+      line-height: 0;
+      margin-top: -12px; }
+  .payment-page .vehicle-details .location {
+    font-size: 12px; }
+  .payment-page .vehicle-details .loc-head {
+    font-size: 12px; }
+  .payment-page .vehicle-details .note-head {
+    font-size: 12px; }
+  .payment-page .vehicle-details .note {
+    font-size: 10px; }
+
+.payment-page .payment-details {
+  height: 200px;
+  background-color: white; }
+  .payment-page .payment-details .fare {
+    line-height: 0; }
+  .payment-page .payment-details .tax-msg {
+    line-height: 1px;
+    color: darkgrey;
+    font-size: 12px; }
+  .payment-page .payment-details .total-pay-result {
+    height: 44px;
+    background-color: #006AA4; }
+  .payment-page .payment-details .total-price {
+    line-height: 0;
+    float: right;
+    margin-top: -15px; }
+
+.payment-page .developer {
+  display: inline-block; }
+
+.payment-page .all-condition {
+  display: inline-block;
+  float: right; }
+
+.payment-page .terms {
+  display: inline-block; }
+
+.payment-page .line {
+  display: inline-block; }
+
+.payment-page .privacy {
+  display: inline-block; }
+
+.payment-page .sticky-footer {
+  flex-shrink: none; }

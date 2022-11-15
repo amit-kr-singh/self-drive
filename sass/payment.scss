@@ -1,0 +1,111 @@
+body html {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: darkgrey;
+}
+.payment-page{
+.hamburger-icon{
+      height: 30px;
+      position: absolute;
+      z-index: 5;
+      margin: 10px;
+    }
+	.bg-dark{
+		background-color: #33414F! important;
+	}
+	.navbar{
+		padding: 0px;
+	}
+	a {
+    color: #f8f9fb;
+    text-decoration: none;
+    background-color: transparent;
+    }
+	.btn-primary{
+		background-color: #006AA4;
+		margin-top: 20px;
+	}
+	.text-primary{
+		color: #006AA4! important;
+	}
+
+	.vehicle-details{
+		height: 419px;
+		background-color: white;
+		.vehicle{
+			height: 167px;
+    		border: 2px solid darkgrey;
+		}
+		.pickup{
+			line-height: 0;
+			margin-right: -5px;
+    		font-size: 13px;
+		}
+		.date-time{
+			line-height: 2;
+    		font-size: 12px;
+    		.time{
+    			line-height: 0;
+    			margin-top: -12px;
+    		}
+		}
+		.location{
+    		font-size: 10px;
+		}
+		.loc-head{
+			font-size: 12px;
+		}
+		.note-head{
+			font-size: 12px;
+		}
+		.note{
+			font-size: 10px;
+		}
+	}
+	.payment-details{
+		height: 200px;
+		background-color: white;
+		.fare{
+			line-height: 0;
+		}
+		.tax-msg{
+			line-height: 1px;
+			color: darkgrey;
+			font-size: 12px;
+		}
+		.total-pay-result{
+			height: 44px;
+			background-color: #006AA4;
+		}
+		.total-price{
+			line-height: 0;
+			float: right;
+			margin-top: -15px;
+		}
+	}
+
+
+	//footer
+	.developer{
+		display: inline-block;
+	}
+	.all-condition{
+		display: inline-block;
+    	float: right;
+	}
+	.terms{
+		display: inline-block;
+	}
+	.line{
+		display: inline-block;
+	}
+	.privacy{
+		display: inline-block;
+	}
+	.sticky-footer {
+  		flex-shrink: none;
+	}
+
+}

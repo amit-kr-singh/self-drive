@@ -1,0 +1,147 @@
+
+body html {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: darkgrey;
+}
+.user-page{
+.hamburger-icon{
+      height: 30px;
+      position: absolute;
+      z-index: 5;
+      margin: 10px;
+    }
+	.bg-dark{
+		background-color: #33414F! important;
+	}
+	.navbar{
+		padding: 0px;
+	}
+	a {
+    color: #f8f9fb;
+    text-decoration: none;
+    background-color: transparent;
+    }
+	.btn-primary{
+		background-color: #006AA4;
+		margin-top: 20px;
+	}
+	.text-primary{
+		color: #006AA4! important;
+	}
+	.user-box{
+		background-color: white;
+		height: 345px;
+		padding: 20px;
+	}
+	form.example input[type=text] {
+		  padding: 10px;
+		  font-size: 17px;
+		  border: 1px solid grey;
+		  float: left;
+		  width: 80%;
+		  background: #f1f1f1;
+	}
+
+	form.example button {
+		  float: left;
+		  width: 20%;
+		  padding: 10px;
+		  background: #2196F3;
+		  color: white;
+		  font-size: 17px;
+		  border: 1px solid grey;
+		  border-left: none;
+		  cursor: pointer;
+	}
+
+	form.example button:hover {
+		  background: #0b7dda;
+	}
+
+	form.example::after {
+		  content: "";
+		  clear: both;
+		  display: table;
+	}
+	.calendar{
+		height: 32px;
+    	position: absolute;
+    	top: 3px;
+    	right: 17px; 
+	}
+	.up-arrow{
+		height: 20px;
+    	position: absolute;
+    	top: 0px;
+    	right: 22px;
+	}
+	.down-arrow{
+		height: 20px;
+    	position: absolute;
+    	top: 17px;
+    	right: 22px;
+	}
+	.watch{
+		height: 30px;
+    	float: right;
+	}
+	.developer{
+		display: inline-block;
+	}
+	.all-condition{
+		display: inline-block;
+    	float: right;
+	}
+	.terms{
+		display: inline-block;
+	}
+	.line{
+		display: inline-block;
+	}
+	.privacy{
+		display: inline-block;
+	}
+	.sticky-footer {
+  		flex-shrink: none;
+	}
+
+	.user-id{
+		.nav {
+    left:50%;
+    margin-left:-150px;
+    top:50px;
+    position:absolute;
+}
+.nav>li>a:hover, .nav>li>a:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background:#fff;
+}
+.dropdown-menu>li>a {
+    color:#428bca;
+}
+.dropdown ul.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    z-index: 10;
+}
+.dropdown ul.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #ccc;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 14px;
+    z-index: 9;
+}
+	}
+
+}
+	

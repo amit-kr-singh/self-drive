@@ -1,0 +1,112 @@
+body html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: darkgrey; }
+
+.order-alert .hamburger-icon {
+  height: 30px;
+  position: absolute;
+  z-index: 5;
+  margin: 10px; }
+
+.order-alert .bg-dark {
+  background-color: #33414F !important; }
+
+.order-alert .navbar {
+  padding: 0px; }
+
+.order-alert a {
+  color: #f8f9fb;
+  text-decoration: none;
+  background-color: transparent; }
+
+.order-alert .btn-primary {
+  background-color: #006AA4;
+  margin-top: 20px;
+  margin-left: 128px; }
+
+.order-alert .text-primary {
+  color: #006AA4 !important; }
+
+.order-alert .vehicle-details {
+  height: 419px;
+  background-color: white; }
+  .order-alert .vehicle-details .vehicle {
+    height: 167px;
+    border: 2px solid darkgrey; }
+  .order-alert .vehicle-details .pickup {
+    line-height: 0;
+    margin-right: -5px;
+    font-size: 13px; }
+  .order-alert .vehicle-details .date-time {
+    line-height: 2;
+    font-size: 12px; }
+    .order-alert .vehicle-details .date-time .time {
+      line-height: 0;
+      margin-top: -12px; }
+  .order-alert .vehicle-details .location {
+    font-size: 10px; }
+  .order-alert .vehicle-details .loc-head {
+    font-size: 12px; }
+  .order-alert .vehicle-details .note-head {
+    font-size: 12px; }
+  .order-alert .vehicle-details .note {
+    font-size: 10px; }
+
+.order-alert .total-pay-result {
+  height: 44px;
+  background-color: #006AA4; }
+
+.order-alert .total-price {
+  line-height: 0;
+  float: right;
+  margin-top: -15px; }
+
+.order-alert .payment-methods {
+  height: 367px;
+  background-color: white; }
+
+.order-alert .alert-msg {
+  background-color: green;
+  color: white;
+  height: 33px;
+  padding: 5px; }
+
+.order-alert .view-order-details {
+  height: 120px;
+  background-color: white; }
+  .order-alert .view-order-details .order {
+    line-height: 1;
+    font-size: 12px; }
+  .order-alert .view-order-details .order-date {
+    line-height: 1;
+    font-size: 12px;
+    float: right; }
+
+.order-alert .payment-details {
+  height: 188px;
+  background-color: white; }
+  .order-alert .payment-details .pay-data {
+    line-height: 1;
+    font-size: 12px; }
+
+.order-alert .developer {
+  display: inline-block; }
+
+.order-alert .all-condition {
+  display: inline-block;
+  float: right; }
+
+.order-alert .terms {
+  display: inline-block; }
+
+.order-alert .line {
+  display: inline-block; }
+
+.order-alert .privacy {
+  display: inline-block; }
+
+.order-alert .sticky-footer {
+  flex-shrink: none; }

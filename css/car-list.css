@@ -1,0 +1,105 @@
+body html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: darkgrey; }
+
+.car-list .hamburger-icon {
+  height: 30px;
+  position: absolute;
+  z-index: 5;
+  margin: 10px; }
+
+.car-list .bg-dark {
+  background-color: #33414F !important; }
+
+.car-list .navbar {
+  padding: 0px; }
+
+.car-list a {
+  color: #f8f9fb;
+  text-decoration: none;
+  background-color: transparent; }
+
+.car-list .btn-primary {
+  background-color: #006AA4;
+  margin-top: 20px; }
+
+.car-list .text-primary {
+  color: #006AA4 !important; }
+
+.car-list .car-list-box {
+  background-color: white;
+  height: 491px; }
+  .car-list .car-list-box .car-list-details {
+    height: 102px;
+    background: #f9f9f9;
+    box-shadow: 5px 7px #e8ecec; }
+    .car-list .car-list-box .car-list-details .car-image {
+      height: 85px; }
+    .car-list .car-list-box .car-list-details .car-box-style {
+      border-right: 1px solid lightgrey; }
+    .car-list .car-list-box .car-list-details .seat-area {
+      margin-top: -9px;
+      font-size: 12px;
+      color: darkgray; }
+    .car-list .car-list-box .car-list-details .line-custom {
+      margin-top: -10px; }
+    .car-list .car-list-box .car-list-details .condition {
+      margin-top: -16px;
+      font-size: 9px;
+      color: darkgray; }
+    .car-list .car-list-box .car-list-details .extra-mile {
+      font-size: 10px;
+      color: darkgrey; }
+    .car-list .car-list-box .car-list-details .booking-price {
+      border-left: 1px solid lightgray; }
+  .car-list .car-list-box .date-time-box1 {
+    height: 70px;
+    background: #f9f9f9;
+    box-shadow: 5px 7px #e8ecec;
+    border-right: 2px solid #e8e8e8;
+    padding: 7px; }
+    .car-list .car-list-box .date-time-box1 .date-time {
+      font-size: 13px;
+      color: darkgray;
+      line-height: 0; }
+  .car-list .car-list-box .date-time-box2 {
+    height: 70px;
+    background: #f9f9f9;
+    box-shadow: 5px 7px #e8ecec;
+    padding: 7px; }
+    .car-list .car-list-box .date-time-box2 .date-time {
+      font-size: 13px;
+      color: darkgray;
+      line-height: 0; }
+  .car-list .car-list-box .car-title {
+    margin-top: 20px; }
+  .car-list .car-list-box .car-box {
+    height: 70px;
+    background: #f9f9f9;
+    box-shadow: 5px 7px #e8ecec;
+    padding: 10px;
+    border-right: 1px solid; }
+    .car-list .car-list-box .car-box .vehicle {
+      height: 40px; }
+
+.car-list .developer {
+  display: inline-block; }
+
+.car-list .all-condition {
+  display: inline-block;
+  float: right; }
+
+.car-list .terms {
+  display: inline-block; }
+
+.car-list .line {
+  display: inline-block; }
+
+.car-list .privacy {
+  display: inline-block; }
+
+.car-list .sticky-footer {
+  flex-shrink: none; }

@@ -1,0 +1,87 @@
+body html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: darkgrey; }
+
+.my-trips .hamburger-icon {
+  height: 30px;
+  position: absolute;
+  z-index: 5;
+  margin: 10px; }
+
+.my-trips .bg-dark {
+  background-color: #33414F !important; }
+
+.my-trips .navbar {
+  padding: 0px; }
+
+.my-trips a {
+  color: #f8f9fb;
+  text-decoration: none;
+  background-color: transparent; }
+
+.my-trips .btn-primary {
+  background-color: #006AA4;
+  margin-top: 20px;
+  margin-left: 128px; }
+
+.my-trips .text-primary {
+  color: #006AA4 !important; }
+
+.my-trips .user-profile {
+  height: 485px;
+  background-color: white; }
+  .my-trips .user-profile .user-side-menu .sidenav {
+    height: 485px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #006AA4 !important;
+    overflow-x: hidden;
+    padding-top: 20px; }
+    .my-trips .user-profile .user-side-menu .sidenav .user-image {
+      height: 50px; }
+    .my-trips .user-profile .user-side-menu .sidenav .user-details {
+      line-height: 5px;
+      font-size: 12px;
+      color: white;
+      top: 8px; }
+  .my-trips .user-profile .user-side-menu .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    line-height: 0; }
+  .my-trips .user-profile .user-side-menu .sidenav a:hover {
+    color: #f1f1f1; }
+
+.my-trips .head {
+  height: 45px;
+  background-color: #006AA4; }
+
+.my-trips .graphic-car {
+  height: 200px;
+  margin-top: 75px; }
+
+.my-trips .developer {
+  display: inline-block; }
+
+.my-trips .all-condition {
+  display: inline-block;
+  float: right; }
+
+.my-trips .terms {
+  display: inline-block; }
+
+.my-trips .line {
+  display: inline-block; }
+
+.my-trips .privacy {
+  display: inline-block; }
+
+.my-trips .sticky-footer {
+  flex-shrink: none; }

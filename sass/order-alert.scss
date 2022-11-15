@@ -1,0 +1,139 @@
+body html {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: darkgrey;
+}
+.order-alert{
+.hamburger-icon{
+      height: 30px;
+      position: absolute;
+      z-index: 5;
+      margin: 10px;
+    }
+	.bg-dark{
+		background-color: #33414F! important;
+	}
+	.navbar{
+		padding: 0px;
+	}
+	a {
+    color: #f8f9fb;
+    text-decoration: none;
+    background-color: transparent;
+    }
+	.btn-primary{
+		background-color: #006AA4;
+		margin-top: 20px;
+		margin-left: 128px;
+	}
+	.text-primary{
+		color: #006AA4! important;
+	}
+
+		//left vehicle details
+	.vehicle-details{
+		height: 419px;
+		background-color: white;
+		.vehicle{
+			height: 167px;
+    		border: 2px solid darkgrey;
+		}
+		.pickup{
+			line-height: 0;
+			margin-right: -5px;
+    		font-size: 13px;
+		}
+		.date-time{
+			line-height: 2;
+    		font-size: 12px;
+    		.time{
+    			line-height: 0;
+    			margin-top: -12px;
+    		}
+		}
+		.location{
+    		font-size: 10px;
+		}
+		.loc-head{
+			font-size: 12px;
+		}
+		.note-head{
+			font-size: 12px;
+		}
+		.note{
+			font-size: 10px;
+		}
+	} 		//left vehicle details
+	
+
+	.total-pay-result{
+		height: 44px;
+		background-color: #006AA4;
+	}
+	.total-price{
+		line-height: 0;
+		float: right;
+		margin-top: -15px;
+	}
+	.payment-methods{
+		height: 367px;
+		background-color: white;
+	}
+
+.alert-msg{
+	background-color: green;
+    color: white;
+    height: 33px;
+    padding: 5px;
+}
+
+.view-order-details{
+	height: 120px;
+	background-color: white;
+	.order{
+		line-height: 1;
+		font-size: 12px;
+	}
+	.order-date{
+		line-height: 1;
+		font-size: 12px;
+		float: right;
+	}
+}
+
+.payment-details{
+	height: 188px;
+	background-color: white;
+	.pay-data{
+		line-height: 1;
+		font-size: 12px;
+	}
+	// .total-price{
+	// 	float: right;
+	// }
+}
+	
+	//footer
+	.developer{
+		display: inline-block;
+	}
+	.all-condition{
+		display: inline-block;
+    	float: right;
+	}
+	.terms{
+		display: inline-block;
+	}
+	.line{
+		display: inline-block;
+	}
+	.privacy{
+		display: inline-block;
+	}
+	.sticky-footer {
+  		flex-shrink: none;
+	}
+
+}

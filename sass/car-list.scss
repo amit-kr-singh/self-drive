@@ -1,0 +1,132 @@
+
+body html {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: darkgrey;
+}
+.car-list{
+.hamburger-icon{
+      height: 30px;
+      position: absolute;
+      z-index: 5;
+      margin: 10px;
+    }
+	.bg-dark{
+		background-color: #33414F! important;
+	}
+	.navbar{
+		padding: 0px;
+	}
+	a {
+    color: #f8f9fb;
+    text-decoration: none;
+    background-color: transparent;
+    }
+	.btn-primary{
+		background-color: #006AA4;
+		margin-top: 20px;
+	}
+	.text-primary{
+		color: #006AA4! important;
+	}
+	.car-list-box{
+		background-color: white;
+		height: 491px;
+		// padding: 20px;
+		.car-list-details{
+			height: 102px;
+			background: #f9f9f9;
+			box-shadow: 5px 7px #e8ecec;
+			.car-image{
+				height: 85px;
+			}
+			.car-box-style{
+				border-right: 1px solid lightgrey;
+			}
+			.car-name{}
+			.seat-area{
+				margin-top: -9px;
+    			font-size: 12px;
+   		 		color: darkgray;
+			}
+			.line-custom{
+				margin-top: -10px;
+			}
+			.condition{
+				margin-top: -16px;
+    			font-size: 9px;
+    			color: darkgray;
+			}
+			.extra-mile{
+				font-size: 10px;
+    			color: darkgrey;
+			}
+			.booking-price{
+				border-left: 1px solid lightgray;
+			}
+		}
+
+		.date-time-box1{
+			height: 70px;
+    		background: #f9f9f9;
+    		box-shadow: 5px 7px #e8ecec;
+    		border-right: 2px solid #e8e8e8;
+    		padding: 7px;
+    		.date-time{
+    			font-size: 13px;
+    			color: darkgray;
+    			line-height: 0;
+    		}
+		}
+
+		.date-time-box2{
+			height: 70px;
+    		background: #f9f9f9;
+    		box-shadow: 5px 7px #e8ecec;
+    		padding: 7px;
+    		.date-time{
+    			font-size: 13px;
+    			color: darkgray;
+    			line-height: 0;
+    		}
+		}
+		.car-title{
+    		margin-top: 20px;
+		}
+		.car-box{
+			height: 70px;
+    		background: #f9f9f9;
+    		box-shadow: 5px 7px #e8ecec;
+    		padding: 10px;
+    		border-right: 1px solid;
+			.vehicle{
+				height: 40px;
+			}
+		}
+	}
+	
+	//footer
+	.developer{
+		display: inline-block;
+	}
+	.all-condition{
+		display: inline-block;
+    	float: right;
+	}
+	.terms{
+		display: inline-block;
+	}
+	.line{
+		display: inline-block;
+	}
+	.privacy{
+		display: inline-block;
+	}
+	.sticky-footer {
+  		flex-shrink: none;
+	}
+
+}
+	

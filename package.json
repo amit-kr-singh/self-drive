@@ -1,0 +1,14 @@
+{
+    "name": "rewoke",
+    "version": "1.0.0",
+    "description": "i am starting sass",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/profile.scss css/profile.css"
+    },
+    "author": "Amit Kumar Singh",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^4.13.0"
+    }
+}
